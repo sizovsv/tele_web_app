@@ -108,6 +108,9 @@ class TeleWebApp extends JsObjectWrapper<tele.WebAppJsImpl> {
   /// refer to the value of the [isExpanded] parameter
   void expand() => jsObject.expand();
 
+  /// A method that enables a confirmation dialog while the user is trying to close the Web App.
+  void enableClosingConfirmation() => jsObject.enableClosingConfirmation();
+
   /// Close the Web App.
   void close() => jsObject.close();
 }
